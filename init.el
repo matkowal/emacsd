@@ -10,3 +10,4 @@
 (load "02projectile.el")
 (load "03highlight-indentation.el")
 (load "04smartparens.el")
+(load "05multiple-cursors.el")
