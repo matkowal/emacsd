@@ -1,0 +1,3 @@
+[submodule "plugins/smartparens"]
+	path = plugins/smartparens
+	url = https://github.com/Fuco1/smartparens.git
