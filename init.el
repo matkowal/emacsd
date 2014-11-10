@@ -2,3 +2,11 @@
 (cask-initialize)
 (require 'pallet)
 (pallet-mode t)
+(add-to-list 'load-path "~/.emacs.d/custom")
+(add-to-list 'load-path "~/.emacs.d/plugins/smartparens")
+
+(load "00common-setup.el")
+(load "01auto-complete.el")
+(load "02projectile.el")
+(load "03highlight-indentation.el")
+(load "04smartparens.el")
